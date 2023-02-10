@@ -1,0 +1,13 @@
+{
+    "variants":
+    {
+        "burning=false,facing=north":{"model": "lm:saber_forge" },
+        "burning=true,facing=north":{"model": "lm:lit_saber_forge" },
+        "burning=false,facing=east":{"model": "lm:saber_forge", "y": 90  },
+        "burning=true,facing=east":{"model": "lm:lit_saber_forge", "y": 90 },
+        "burning=false,facing=south":{"model": "lm:saber_forge", "y": 180  },
+        "burning=true,facing=south":{"model": "lm:lit_saber_forge", "y": 180  },
+        "burning=false,facing=west":{"model": "lm:saber_forge", "y": 270  },
+        "burning=true,facing=west":{"model": "lm:lit_saber_forge", "y": 270  }
+    }
+}

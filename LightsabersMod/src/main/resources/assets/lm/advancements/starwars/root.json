@@ -1,0 +1,98 @@
+{
+    "display": {
+        "icon": {
+            "item": "lm:lightsaber_green_ignited"
+        },
+        "title": {
+            "translate": "advancements.star1.title"
+        },
+        "description": {
+            "translate": "advancements.star1.description"
+        },
+        "background": "lm:textures/gui/advancementroot.png",
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "has_saber_top": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "lm:hilt_top"
+                    }
+                ]
+            }
+        },
+        "has_saber_grip": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "lm:hilt_grip"
+                    }
+                ]
+            }
+        },
+        "has_saber_lens": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "lm:hilt_lens"
+                    }
+                ]
+            }
+        },
+        "green": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "lm:lightsaber_green_hilt"
+                    }
+                ]
+            }
+        },
+        "blue": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "lm:lightsaber_blue_hilt"
+                    }
+                ]
+            }
+        },
+        "purple": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "lm:lightsaber_purple_hilt"
+                    }
+                ]
+            }
+        },
+        "red": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "lm:lightsaber_red_hilt"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_saber_top",
+            "has_saber_grip",
+            "has_saber_lens",
+            "green",
+            "blue",
+            "purple",
+            "red"
+        ]
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        "IDI",
+        "DFD",
+        "IDI"
+    ],
+   
+    "key":
+    {
+        "I":
+        {
+            "item": "minecraft:iron_ingot"
+        },
+        "D":
+        {
+            "item": "minecraft:diamond"
+        },
+        "F":
+        {
+            "item": "minecraft:furnace"
+        }
+    },
+   
+    "result":
+    {
+        "item": "lm:saber_forge_off",
+        "count": 1
+    }
+}

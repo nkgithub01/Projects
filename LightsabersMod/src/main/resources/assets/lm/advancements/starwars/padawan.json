@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "lm:padawan_focus"
+        },
+        "title": {
+            "translate": "advancements.jedi2.title"
+        },
+        "description": {
+            "translate": "advancements.jedi2.description"
+        },
+        "announce_to_chat": false
+    },
+    "parent": "lm:starwars/jediCrystal",
+    "criteria": {
+        "green": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "lm:padawan_focus"
+                    }
+                ]
+            }
+        }
+    }
+}

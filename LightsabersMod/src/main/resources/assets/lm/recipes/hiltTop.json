@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        "  R",
+        "RRR",
+        "RLR"
+    ],
+   
+    "key":
+    {
+        "L":
+        {
+            "item": "lm:hilt_lens"
+        },
+        "R":
+        {
+            "item": "minecraft:iron_ingot"
+        }
+    },
+   
+    "result":
+    {
+        "item": "lm:hilt_top",
+        "count": 1
+    }
+}

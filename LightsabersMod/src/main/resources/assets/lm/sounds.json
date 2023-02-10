@@ -1,0 +1,106 @@
+{
+    "lightsaber_block":
+    {
+        "category": "neutral",
+        "subtitle": "lm.subtitle.lightsaberBlock",
+        "sounds":
+        [
+            "lm:hit/hit0",
+            "lm:hit/hit1",
+            "lm:hit/hit2",
+            "lm:hit/hit3",
+            "lm:hit/hit4"          
+        ]
+    },
+    "lightsaber_swing":
+    {
+        "category": "neutral",
+        "subtitle": "lm.subtitle.lightsaberSwing",
+        "sounds":
+        [
+            "lm:swing/swing0",
+            "lm:swing/swing1",
+            "lm:swing/swing2",
+            "lm:swing/swing3",
+            "lm:swing/swing4",
+            "lm:swing/swing5",
+            "lm:swing/swing6",
+            "lm:swing/swing7"
+        ]
+    },
+    "lightsaber_rotate":
+    {
+        "category": "neutral",
+        "subtitle": "lm.subtitle.lightsaberSwing",
+        "sounds":
+        [
+            "lm:swing/swing6"
+        ]
+    },
+    "lightsaber_on":
+    {
+        "category": "neutral",
+        "subtitle": "lm.subtitle.lightsaberOn",
+        "sounds":
+        [
+            "lm:on"
+        ]
+    },
+    "lightsaber_off":
+    {
+        "category": "neutral",
+        "subtitle": "lm.subtitle.lightsaberOff",
+        "sounds":
+        [
+            "lm:off"
+        ]
+    },
+    "lightsaber_idle":
+    {
+        "category": "neutral",
+        "subtitle": "lm.subtitle.lightsaber",
+        "sounds":
+        [
+            "lm:idle"
+        ]
+    },
+    "lightsaber_strike":
+    {
+        "category": "neutral",
+        "subtitle": "lm.subtitle.lightsaberStrike",
+        "sounds":
+        [
+            "lm:strike0",
+            "lm:strike1",
+            "lm:strike2"
+        ]
+    },
+    "menu_select":
+    {
+        "category": "neutral",
+        "subtitle": "lm.subtitle.menuSelection",
+        "sounds":
+        [
+            "lm:menuselect"
+        ]
+    },
+    "sith_lightning":
+    {
+        "category": "neutral",
+        "subtitle": "lm.subtitle.sithLightning",
+        "sounds":
+        [
+            "lm:sithlightning",
+            "lm:sithlightning1"
+        ]
+    },
+    "blaster":
+    {
+        "category": "neutral",
+        "subtitle": "lm.subtitle.blaster",
+        "sounds":
+        [
+            "lm:blaster"
+        ]
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        "XXX",
+        " X ",
+        "XXX"
+    ],
+   
+    "key":
+    {
+        "X":
+        {
+            "item": "minecraft:glass"
+        }
+    },
+   
+    "result":
+    {
+        "item": "lm:hilt_lens",
+        "count": 1
+    }
+}

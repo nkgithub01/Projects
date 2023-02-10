@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "lm:master_focus"
+        },
+        "title": {
+            "translate": "advancements.jedi3.title"
+        },
+        "description": {
+            "translate": "advancements.jedi3.description"
+        },
+        "frame": "goal"
+    },
+    "parent": "lm:starwars/padawan",
+    "criteria": {
+        "green": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "lm:master_focus"
+                    }
+                ]
+            }
+        }
+    }
+}

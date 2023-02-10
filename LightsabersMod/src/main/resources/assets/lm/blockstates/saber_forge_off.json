@@ -1,0 +1,9 @@
+{
+    "variants":
+    {
+        "facing=north":{"model": "lm:saber_forge" },
+        "facing=east":{"model": "lm:saber_forge", "y": 90  },
+        "facing=south":{"model": "lm:saber_forge", "y": 180  },
+        "facing=west":{"model": "lm:saber_forge", "y": 270  }
+    }
+}

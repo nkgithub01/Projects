@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "lm:lightsaber_crystal_red"
+        },
+        "title": {
+            "translate": "advancements.kill3.title"
+        },
+        "description": {
+            "translate": "advancements.kill3.description"
+        },
+        "announce_to_chat": false
+    },
+    "parent": "lm:starwars/hate2",
+    "criteria": {
+        "diamond": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "lm:lightsaber_crystal_red"
+                    }
+                ]
+            }
+        }
+    }
+}

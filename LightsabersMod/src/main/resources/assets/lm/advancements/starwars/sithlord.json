@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "lm:lord_focus"
+        },
+        "title": {
+            "translate": "advancements.kill5.title"
+        },
+        "description": {
+            "translate": "advancements.kill5.description"
+        },
+        "frame": "goal"
+    },
+    "parent": "lm:starwars/apprentice",
+    "criteria": {
+        "diamond": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "lm:lord_focus"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "lm:lightsaber_red_ignited"
+        },
+        "title": {
+            "translate": "advancements.kill2.title"
+        },
+        "description": {
+            "translate": "advancements.kill2.description"
+        },
+        "announce_to_chat": false
+    },
+    "parent": "lm:starwars/hate1",
+    "criteria": {
+        "villager": {
+            "trigger": "player_hate"
+        }
+    }
+}

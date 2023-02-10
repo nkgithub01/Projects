@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        " D ",
+        "DOD",
+        "LLL"
+    ],
+   
+    "key":
+    {
+        "D":
+        {
+            "item": "minecraft:diamond"
+        },
+        "O":
+        {
+            "item": "minecraft:obsidian"
+        },
+        "L":
+        {
+            "item": "minecraft:lapis_block"
+        }
+    },
+   
+    "result":
+    {
+        "item": "lm:focus_piece",
+        "count": 1
+    }
+}

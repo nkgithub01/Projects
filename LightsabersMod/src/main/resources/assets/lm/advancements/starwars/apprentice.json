@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "lm:apprentice_focus"
+        },
+        "title": {
+            "translate": "advancements.kill4.title"
+        },
+        "description": {
+            "translate": "advancements.kill4.description"
+        },
+        "announce_to_chat": false
+    },
+    "parent": "lm:starwars/sithCrystal",
+    "criteria": {
+        "diamond": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "lm:apprentice_focus"
+                    }
+                ]
+            }
+        }
+    }
+}

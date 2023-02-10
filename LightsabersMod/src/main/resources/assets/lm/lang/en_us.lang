@@ -1,0 +1,83 @@
+item.lightsaber_crystal.name=Green Kyber Crystal
+item.lightsaber_crystal_blue.name=Blue Kyber Crystal
+item.lightsaber_crystal_purple.name=Purple Kyber Crystal
+item.lightsaber_crystal_red.name=Red Lightsaber Crystal
+
+item.lightsaber_green_ignited.name=Green Lightsaber
+item.lightsaber_green_hilt.name=Green Lightsaber
+item.lightsaber_blue_ignited.name=Blue Lightsaber
+item.lightsaber_blue_hilt.name=Blue Lightsaber
+item.lightsaber_purple_ignited.name=Purple Lightsaber
+item.lightsaber_purple_hilt.name=Purple Lightsaber
+item.lightsaber_red_ignited.name=Red Lightsaber
+item.lightsaber_red_hilt.name=Red Lightsaber
+
+item.item_blaster.name=Blaster
+
+tile.kyber_crystal_block.name=Green Kyber Crystal
+tile.kyber_crystal_block_blue.name=Blue Kyber Crystal
+tile.kyber_crystal_block_purple.name=Purple Kyber Crystal
+tile.kyber_crystal_block_red.name=Red Artificial Crystal
+
+tile.saber_forge_off.name=Force Forge
+
+item.hilt_lens.name=Focusing Lens
+item.hilt_grip.name=Lightsaber Hilt Grip
+item.hilt_top.name=Lightsaber Hilt Top
+
+item.padawan_focus.name=Jedi Padawan's Focus
+item.master_focus.name=Jedi Master's Focus
+item.apprentice_focus.name=Sith Apprentice's Focus
+item.lord_focus.name=Sith Lord's Focus
+
+item.focus_piece.name=Force Focus Piece
+
+
+lm.subtitle.lightsaberBlock=Lightsaber deflects
+lm.subtitle.lightsaberSwing=Lightsaber Swinging
+lm.subtitle.lightsaberOn=Lightsaber turns on
+lm.subtitle.lightsaberOff=Lightsaber turns off
+lm.subtitle.lightsaber=Lightsaber idle
+lm.subtitle.lightsaberStrike=Lightsaber Striking
+lm.subtitle.menuSelection=Select Force Ability
+lm.subtitle.sithLightning=Sith Lightning
+lm.subtitle.blaster=Blaster Fired
+
+
+container.saber_forge=Force Forge
+
+itemGroup.starWars=Star Wars
+
+key.starWars.category=Star Wars
+
+key.saberBlock.desc=Defend With Lightsaber
+key.throwSaber.desc=Throw Lightsaber
+key.openForceGui.desc=Open Force Abilities Gui
+
+advancements.star1.title=Star Wars
+advancements.star1.description=Experience The Weapons And Powers Of A Distant Galaxy. 
+
+advancements.kill1.title=Not Just The Men...
+advancements.kill1.description=Kill A Villager
+advancements.kill2.title=But The Women And The Children
+advancements.kill2.description=Kill 10 Villagers To Gain Enough Hatred To Forge Sith Weaponry
+advancements.kill3.title=The Dark Side
+advancements.kill3.description=Forge A Lightsaber Crystal By Meditating Near A Force Forge
+advancements.kill4.title=The Apprentice
+advancements.kill4.description=Forge A Sith Apprentice's Focus
+advancements.kill5.title=Rise Of The Dark Lord
+advancements.kill5.description=Forge A Sith Lord's Focus
+
+advancements.jedi1.title=Bonding
+advancements.jedi1.description=Harvest A Kyber Crystal
+advancements.jedi2.title=Learning The Jedi Ways
+advancements.jedi2.description=Forge a Jedi Padawan's Focus
+advancements.jedi3.title=A True Jedi
+advancements.jedi3.description=Forge a Jedi Master's Focus
+
+advancements.saber1.title=The Strongest Weapon
+advancements.saber1.description=Forge a Lightsaber
+advancements.saber2.title=Nice Catch!
+advancements.saber2.description=Throw And Catch A Lightsaber
+advancements.saber3.title=Oh! That's A Baseball!
+advancements.saber3.description=Deflect A Projectile

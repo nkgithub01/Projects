@@ -1,0 +1,13 @@
+{
+    "parent": "block/orientable",
+    "textures":
+    {
+        "particle": "lm:blocks/forgeblock/saber_forge_front_off",
+        "up": "lm:blocks/forgeblock/saber_forge_top",
+        "down": "lm:blocks/forgeblock/saber_forge_top",
+        "north": "lm:blocks/forgeblock/saber_forge_front_on",
+        "south": "lm:blocks/forgeblock/saber_forge_side",
+        "east": "lm:blocks/forgeblock/saber_forge_side",
+        "west": "lm:blocks/forgeblock/saber_forge_side"
+    }
+}

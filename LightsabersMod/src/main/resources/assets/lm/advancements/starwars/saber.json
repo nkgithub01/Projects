@@ -1,0 +1,65 @@
+{
+    "display": {
+        "icon": {
+            "item": "lm:lightsaber_green_hilt"
+        },
+        "title": {
+            "translate": "advancements.saber1.title"
+        },
+        "description": {
+            "translate": "advancements.saber1.description"
+        },
+        "announce_to_chat": false
+    },
+    "parent": "lm:starwars/root",
+    "criteria": {
+        "green": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "lm:lightsaber_green_hilt"
+                    }
+                ]
+            }
+        },
+        "blue": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "lm:lightsaber_blue_hilt"
+                    }
+                ]
+            }
+        },
+        "purple": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "lm:lightsaber_purple_hilt"
+                    }
+                ]
+            }
+        },
+        "red": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "lm:lightsaber_red_hilt"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "green",
+            "blue",
+            "purple",
+            "red"
+        ]
+    ]
+}

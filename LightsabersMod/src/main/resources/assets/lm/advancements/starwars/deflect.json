@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:arrow"
+        },
+        "title": {
+            "translate": "advancements.saber3.title"
+        },
+        "description": {
+            "translate": "advancements.saber3.description"
+        },
+        "frame": "challenge"
+    },
+    "parent": "lm:starwars/saber",
+    "criteria": {
+        "villager": {
+            "trigger": "player_deflect"
+        }
+    }
+}

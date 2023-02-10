@@ -1,0 +1,172 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+    "textures": {
+        "wool_colored_gray": "minecraft:blocks/wool_colored_gray",
+        "concrete_black": "minecraft:blocks/concrete_black",
+        "concrete_white": "minecraft:blocks/concrete_white",
+        "anvil_base": "minecraft:blocks/anvil_base"
+    },
+    "display": {
+        "gui": {
+            "rotation": [ 285, 228, 283 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 3, 0 ],
+            "scale": [ 0.5, 0.5, 0.5 ]
+        },
+        "fixed": {
+            "rotation": [ 258, 133, 100 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 360, 0 ],
+            "translation": [ 0, 4.5, 1 ],
+            "scale": [ 1.2, 1.2, 1.2 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 1.5, -1 ],
+            "scale": [ 0.8, 0.8, 0.8 ]
+        }
+    },
+    "elements": [
+        {
+            "name": "blasterBody",
+            "from": [ 7.25, 7, 2.5 ], 
+            "to": [ 8.75, 8.5, 12.5 ], 
+            "shade": false,
+            "faces": {
+                "north": { "texture": "#anvil_base", "uv": [ 0, 0, 1.5, 1.5 ] },
+                "east": { "texture": "#anvil_base", "uv": [ 0, 0, 10, 1.5 ] },
+                "west": { "texture": "#anvil_base", "uv": [ 0, 0, 10, 1.5 ] },
+                "up": { "texture": "#anvil_base", "uv": [ 0, 0, 1.5, 10 ] },
+                "down": { "texture": "#anvil_base", "uv": [ 0, 0, 1.5, 10 ] }
+            }
+        },
+        {
+            "name": "grip",
+            "from": [ 7.5, 3.5, 9.5 ], 
+            "to": [ 8.5, 7.5, 10.5 ], 
+            "shade": false,
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "x", "angle": -22.5 },
+            "faces": {
+                "north": { "texture": "#anvil_base", "uv": [ 0, 11, 1, 15 ] },
+                "east": { "texture": "#anvil_base", "uv": [ 0, 9, 1, 13 ] },
+                "south": { "texture": "#anvil_base", "uv": [ 0, 9, 1, 13 ] },
+                "west": { "texture": "#anvil_base", "uv": [ 0, 9, 1, 13 ] },
+                "up": { "texture": "#anvil_base", "uv": [ 0, 11, 1, 12 ] },
+                "down": { "texture": "#anvil_base", "uv": [ 0, 11, 1, 12 ] }
+            }
+        },
+        {
+            "name": "gripbottom",
+            "from": [ 7.5, 3.5, 9 ], 
+            "to": [ 8.5, 3.9, 10.4 ], 
+            "shade": false,
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "x", "angle": -22.5 },
+            "faces": {
+                "north": { "texture": "#anvil_base", "uv": [ 0, 0, 1, 0.4 ] },
+                "east": { "texture": "#anvil_base", "uv": [ 0, 0, 1.4, 0.4 ] },
+                "south": { "texture": "#anvil_base", "uv": [ 0, 0, 1, 0.4 ] },
+                "west": { "texture": "#anvil_base", "uv": [ 0, 0, 1.4, 0.4 ] },
+                "up": { "texture": "#anvil_base", "uv": [ 0, 0, 1, 1.4 ] },
+                "down": { "texture": "#anvil_base", "uv": [ 0, 0, 1, 1.4 ] }
+            }
+        },
+        {
+            "name": "triggerBottom",
+            "from": [ 7.8, 6, 9 ], 
+            "to": [ 8.1, 6.3, 11 ], 
+            "shade": false,
+            "faces": {
+                "east": { "texture": "#concrete_black", "uv": [ 0, 0, 2, 0.3 ] },
+                "south": { "texture": "#concrete_black", "uv": [ 0, 0, 0.3, 0.3 ] },
+                "west": { "texture": "#concrete_black", "uv": [ 0, 0, 2, 0.3 ] },
+                "up": { "texture": "#concrete_black", "uv": [ 0, 0, 0.3, 2 ] },
+                "down": { "texture": "#concrete_black", "uv": [ 0, 0, 0.3, 2 ] }
+            }
+        },
+        {
+            "name": "triggerfront",
+            "from": [ 7.8, 6, 9 ], 
+            "to": [ 8.1, 7.3, 9.2 ], 
+            "shade": false,
+            "faces": {
+                "north": { "texture": "#concrete_black", "uv": [ 0, 0, 0.3, 1.3 ] },
+                "east": { "texture": "#concrete_black", "uv": [ 0, 0, 0.2, 1.3 ] },
+                "south": { "texture": "#concrete_black", "uv": [ 0, 0, 0.3, 1.3 ] },
+                "west": { "texture": "#concrete_black", "uv": [ 0, 0, 0.2, 1.3 ] }
+            }
+        },
+        {
+            "name": "trigger",
+            "from": [ 7.8, 6.4, 9.5 ], 
+            "to": [ 8.1, 7.7, 9.7 ], 
+            "shade": false,
+            "faces": {
+                "north": { "texture": "#concrete_white", "uv": [ 0, 0, 0.3, 1.3 ] },
+                "east": { "texture": "#concrete_white", "uv": [ 0, 0, 0.2, 1.3 ] },
+                "south": { "texture": "#concrete_white", "uv": [ 0, 0, 0.3, 1.3 ] },
+                "west": { "texture": "#concrete_white", "uv": [ 0, 0, 0.2, 1.3 ] },
+                "down": { "texture": "#concrete_white", "uv": [ 0, 0, 0.3, 0.2 ] }
+            }
+        },
+        {
+            "name": "blasterBarrel",
+            "from": [ 7.6, 7.4, 2.3 ], 
+            "to": [ 8.4, 8.2, 2.5 ], 
+            "shade": false,
+            "faces": {
+                "north": { "texture": "#anvil_base", "uv": [ 0, 11, 0.8, 11.8 ] },
+                "east": { "texture": "#anvil_base", "uv": [ 0, 11, 0.2, 11.8 ] },
+                "west": { "texture": "#anvil_base", "uv": [ 0, 11, 0.2, 11.8 ] },
+                "up": { "texture": "#anvil_base", "uv": [ 0, 11, 0.8, 11.2 ] },
+                "down": { "texture": "#anvil_base", "uv": [ 0, 11, 0.8, 11.2 ] }
+            }
+        },
+        {
+            "name": "blasterback",
+            "from": [ 7.1, 6.8, 12.2 ], 
+            "to": [ 8.9, 8.6, 12.7 ], 
+            "shade": false,
+            "faces": {
+                "north": { "texture": "#wool_colored_gray", "uv": [ 0, 11, 1.8, 12.8 ] },
+                "east": { "texture": "#wool_colored_gray", "uv": [ 0, 11, 0.5, 12.8 ] },
+                "south": { "texture": "#wool_colored_gray", "uv": [ 0, 11, 1.8, 12.8 ] },
+                "west": { "texture": "#wool_colored_gray", "uv": [ 0, 11, 0.5, 12.8 ] },
+                "up": { "texture": "#wool_colored_gray", "uv": [ 0, 11, 1.8, 11.5 ] },
+                "down": { "texture": "#wool_colored_gray", "uv": [ 0, 11, 1.8, 11.5 ] }
+            }
+        },
+        {
+            "name": "sight1",
+            "from": [ 7.9, 8.5, 4.3 ], 
+            "to": [ 8.1, 9.1, 4.5 ], 
+            "shade": false,
+            "faces": {
+                "north": { "texture": "#anvil_base", "uv": [ 0, 11, 0.2, 11.6 ] },
+                "east": { "texture": "#anvil_base", "uv": [ 0, 11, 0.2, 11.6 ] },
+                "south": { "texture": "#anvil_base", "uv": [ 0, 11, 0.2, 11.6 ] },
+                "west": { "texture": "#anvil_base", "uv": [ 0, 11, 0.2, 11.6 ] },
+                "up": { "texture": "#anvil_base", "uv": [ 0, 11, 0.2, 11.2 ] }
+            }
+        },
+        {
+            "name": "blasterBarrel2",
+            "from": [ 7.75, 7.55, 2.1 ], 
+            "to": [ 8.25, 8.05, 2.3 ], 
+            "shade": false,
+            "faces": {
+                "north": { "texture": "#anvil_base", "uv": [ 0, 11, 0.5, 11.5 ] },
+                "east": { "texture": "#anvil_base", "uv": [ 0, 11, 0.2, 11.5 ] },
+                "west": { "texture": "#anvil_base", "uv": [ 0, 11, 0.2, 11.5 ] },
+                "up": { "texture": "#anvil_base", "uv": [ 0, 11, 0.5, 11.2 ] },
+                "down": { "texture": "#anvil_base", "uv": [ 0, 11, 0.5, 11.2 ] }
+            }
+        }
+    ]
+}
