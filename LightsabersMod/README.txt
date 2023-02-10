@@ -1,3 +1,7 @@
+This is the Lightsaber Mod, v1.0
+Mod code is contained in LightsabersMod/src/main/java/com/finn_505/lightsabermod
+
+
 -------------------------------------------
 Source installation information for modders
 -------------------------------------------
